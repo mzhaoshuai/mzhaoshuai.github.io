@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans|Dancing+Script&display=swap');
+body{
+  background-color: white;
+  font-family: 'DM Sans', sans-serif;
+  border: 2px solid white;
+  border-radius: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+html{
+    background-color: whitesmoke;
+    background-size: 8px 8px;
+}
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
+nav ul{
+  list-style-type: none;
+  background-color: whitesmoke;
+  border: 4px solid whitesmoke;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 16px;
+}
+nav ul li{
+  display: inline;
+  border-right: 2px solid #111111;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+nav ul li:last-child {
+  border-right: none;
+}
+nav ul li a {
+  color: #111111
+}
+nav li.selected {
+  color: #606060;
+}
+
+img {
+  border: 4px solid white;
+  border-radius: 20px;
+}
+
+section {
+  border: 4px solid #222222;
+  border-radius: 16px;
+}
+#name {
+  padding-left: 15px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.title {
+  font-family: cursive;
+}
+#constructing {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+.selected:hover {
+  text-decoration: underline;
+}
+div#header {
+	width: 800px;
+	height: 200px;
+	font-size: 12pt;
+	background-color: #ffffff;
+	padding: 2em 0 0 0;
+}
+
+
+div#contact {
+	float: none;
+	padding: 3em 0 1em 2em;
+    line-height: 120%;
+    font-size: 12pt;
+}
+
+div#profile {
+	float: left;
+	padding: 20px 20px 0 20px;
+}
+.author {
+  color: #5b2503;
+}
+
+footer {
+  clear: both;
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 16px;
+}
+ footer h5 {
+   text-align: center;
+ }
